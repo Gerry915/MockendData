@@ -10,5 +10,13 @@
     "post": {
       "belongsTo": "Post"
     }
+  },
+  "Agent": {
+    "name": {
+      "loremWords": {"minLength": 2, "maxLength": 3}
+    },
+    "avatar": {
+      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+    }
   }
 }
