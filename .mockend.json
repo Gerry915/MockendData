@@ -30,6 +30,15 @@
         "max": 3
       }
     },
+    "childProjectNumber": {
+      "int": {
+        "min": 1,
+        "max": 4
+      }
+    },
+    "hasChild": {
+      "boolean": {}
+    },
     "numberOfCarspace": {
       "int": {
         "min": 0,
