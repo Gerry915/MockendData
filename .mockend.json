@@ -1,7 +1,10 @@
 {
   "Property": {
     "price": { 
-      "int": {"min": 350000, "max": 1500000} 
+      "int": {"min": 350000, "max": 1500000}
+    },
+    "agent": {
+      "loremWords": {"minLength": 5, "maxLength": 15}    
     }
   },
   "Agent": {
