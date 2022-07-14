@@ -1,10 +1,38 @@
 {
   "Property": {
-    "price": { "int": {"min": 350000, "max": 1500000} },
-    "agent": { "loremWords": {"minLength": 5, "maxLength": 15} },
-    "avatar": { "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}" },
-    "photo": { "regexp": ["https://picsum\\.photos/seed/[0-9]{5}/1920/1080", "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"] },
-    "address": {"loremWords": {"minLength": 20, "maxLength": 30}}
+    "price": { 
+      "int": {
+        "min": 350000, 
+        "max": 1500000
+      } 
+    },
+    "agentname": { 
+      "loremWords": {
+        "minLength": 5, 
+        "maxLength": 15
+      } 
+    },
+    "avatar": { 
+      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}" 
+    },
+    "photo": { 
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" 
+    },
+    "isProcessing": { 
+      "boolean": {} 
+    },
+    "openDate": {
+      "dateTime": {
+      "min": "2010-01-01T00:00:00Z",
+      "max": "2020-12-31T23:59:59Z"
+      }
+    },
+    "address": {
+      "loremWords": {
+        "minLength": 20, 
+        "maxLength": 30
+      }
+    }
   },
   "Agent": {
     "name": {
