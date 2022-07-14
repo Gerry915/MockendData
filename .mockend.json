@@ -4,7 +4,7 @@
       "int": {"min": 350000, "max": 1500000} 
     },
     "agent": {
-      "string": {"loremWords": {"minLength": 5, "maxLength": 15}},
+      "string": {string: {}},
     }
   },
   "Agent": {
