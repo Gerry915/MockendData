@@ -4,13 +4,9 @@
       "int": {"min": 350000, "max": 1500000} 
     },
     "agent": {
-      "name": {
-        "loremWords": {"minLength": 5, "maxLength": 15}
-        },
-        "avatar": {
-          "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-        }
-      }
+      "name": {"loremWords": {"minLength": 5, "maxLength": 15}},
+      "avatar": {"regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"}
+    }
   },
   "Agent": {
     "name": {
