@@ -18,6 +18,39 @@
     "photo": { 
       "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" 
     },
+    "numberOfBedroom": {
+      "int": {
+        "min": 1,
+        "max": 5
+      }
+    },
+    "numberOfBathroom": {
+      "int": {
+        "min": 1,
+        "max": 3
+      }
+    },
+    "numberOfCarspace": {
+      "int": {
+        "min": 0,
+        "max": 3
+      }
+    },
+    "description": {
+      "loremParagraphs": {
+        "minLength": 200, 
+        "maxLength": 350
+      }
+    },
+    "propertyType": {
+      "string": [
+        "House",
+        "Apartment",
+        "TownHouse",
+        "Land",
+        "Unit"
+      ]
+    },
     "isProcessing": { 
       "boolean": {} 
     },
